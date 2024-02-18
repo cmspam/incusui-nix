@@ -40,4 +40,13 @@ in
     };
   };
 ```
-4. If you enabled accessing incus over the network when you ran incus admin init, after rebuilding your system, the UI should work. Navigate to https://{YOUR-IP}:8443 to get to it.
+4. Add incus-ui to your environment.systemPackages like the below example.
+```
+  # Environment Settings
+  environment.systemPackages = with pkgs; [
+    vim
+    git
+    incus-ui
+  ];
+``` 
+5. If you enabled accessing incus over the network when you ran incus admin init, after rebuilding your system, the UI should work. Navigate to https://{YOUR-IP}:8443 to get to it.
