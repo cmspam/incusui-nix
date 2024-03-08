@@ -2,7 +2,7 @@
 Incus UI for Nix.
 
 ## What is this?
-Incus is available on nixos, but the Web UI is not. We can use the files here to build the Web UI.
+Incus is available on nixos, but the Web UI is not **Update. Now the web UI is also available**. We can use the files here to build the Web UI.
 
 ## How to use it
 
